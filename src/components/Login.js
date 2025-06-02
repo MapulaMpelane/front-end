@@ -21,7 +21,7 @@ export const Login = () => {
       // Check for admin login
       if (
         credentials.email.toLowerCase() === "admin" &&
-        credentials.password === "admin"
+        credentials.password === "admin@123"
       ) {
         navigate("/admin"); // Redirect to admin dashboard
       } else {
